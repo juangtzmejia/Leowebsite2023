@@ -1,0 +1,116 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+background: #000;
+}
+#container{
+width: 1280px;
+height: 1024px;
+margin: auto;
+background: #191970;
+border-radius: 20px;
+margin-top: 10px;
+}
+header{
+width: 1280px;
+height: 200px;
+background: yellow;
+margin-top: 10px;
+}
+#banner{
+width: 1000px;
+height: 200px;
+background: #023E7D;
+float: left;
+}
+#logo{
+width: 280px;
+height: 200px;
+background: #0353A4;
+float: left;
+}
+
+nav{
+width: 1280px;
+height: 50px;
+background: #191970;
+margin-top: 10px;
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+/*para eliminar los puntos y espacios*/
+nav ul{
+list-style: none;
+margin: 0px;
+padding: 0px;
+}
+/*Para que sea flotante a izquierda */
+nav ul li{
+float: left;
+}
+nav a{
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+display: block;
+padding: 12px;
+color: ghostwhite;
+font-size: 20px;
+
+}
+main{
+width: 1280px;
+height: 670px;
+background: green;
+margin-top: 10px;
+}
+#left-content{
+width: 400px;
+height: 670px;
+background: #f4f3ee;
+float: left;
+}
+article{
+width: 480px;
+height: 670px;
+float: left;
+background: #f4f3ee;
+}
+#right-content{
+width: 400px;
+height: 670px;
+float: left;
+background: #f4f3ee;
+}
+footer{
+width: 1280px;
+height: 100px;
+ background: #bcb8b1;
+clear: both;
+}
+p {
+  font-family: Arial, Helvetica, Sans-serif;
+  color: black;
+    font-size: 17px;
+    text-align: justify;
+
+}
+h1 
+{ text-transform: capitalize;
+text-align: center;
+color: darkslategray;
+}
+h3
+{ text-transform: capitalize;
+text-align: justify;
+color: slateblue;
+}
+h4
+{ text-transform: capitalize;
+text-align: left;
+color:orangered;
+}
